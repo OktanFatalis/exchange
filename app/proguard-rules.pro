@@ -1,0 +1,14 @@
+-dontwarn kotlin.**
+-dontwarn org.jetbrains.annotations.**
+-repackageclasses
+-allowaccessmodification
+
+-assumenosideeffects class kotlin.jvm.internal.Intrinsics {
+    static void checkNotNull(...);
+    static void checkNotNullParameter(...);
+    static void checkNotNullExpressionValue(...);
+    static void checkParameterIsNotNull(...);
+    static void checkExpressionValueIsNotNull(...);
+    static void checkReturnedValueIsNotNull(...);
+    static void checkFieldIsNotNull(...);
+}

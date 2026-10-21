@@ -1,0 +1,2 @@
+HSPLcom/fastcurrency/app/**->**(**)**
+Lcom/fastcurrency/app/**;
